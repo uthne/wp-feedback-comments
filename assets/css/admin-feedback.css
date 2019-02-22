@@ -1,0 +1,34 @@
+input[type='range'] {
+    width: 170px;
+    height: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    background: rgba(0,0,0,0);
+}
+input[type='range'], input[type='range']::-webkit-slider-runnable-track, input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+input[type='range']::-webkit-slider-runnable-track {
+    width: 170px;
+    height: 2px;
+    background: #AAA;
+    border-radius: 1px;
+}
+input[type='range']::-webkit-slider-thumb {
+    position: relative;
+    height: 12px;
+    width: 12px;
+    margin-top: -5px;
+    background: steelblue;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+input[type='range']::-webkit-slider-thumb::before {
+    position: absolute;
+    content: '';
+    height: 2px; /* equal to height of runnable track */
+    width: 500px; /* make this bigger than the widest range input element */
+    left: -502px; /* this should be -2px - width */
+    top: 8px; /* don't change this */
+    background: #777;
+}

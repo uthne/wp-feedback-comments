@@ -1,0 +1,262 @@
+.m-feedback-prompt {
+    margin-bottom: 1.5em;
+}
+h4.m-feedback-prompt__header {
+    display: inline;
+    font-family: inherit;
+    font-size: 1.5em;
+    line-height: 1.125em;
+    vertical-align: middle;
+}
+.m-feedback-prompt__button {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    position: relative;/*vertical-align: middle;*/
+}
+.m-feedback-prompt__button i {
+    width: 25px;
+    height: 25px;
+}
+.feedback-prompt__button.no {
+    margin-left: 0;
+}
+.m-feedback-prompt__display {
+    background-color: #e9e7e8;
+    display: none;
+    margin: 15px 0;
+    padding: 20px;
+    position: relative;
+    min-width: 200px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.m-feedback-prompt__display.no {
+    margin: 9px 0;
+}
+.thanks h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+    color: #556b2f;
+}
+.thanks .m-contact p {
+    font-size: 1em;
+    color: #556b2f;
+}
+.feedback-nodisplayall {
+    display: none;
+}
+.feedback-displayall {
+    display: inline-block;
+}
+.m-feedback-prompt__display.show {
+    display: inline-block;
+    text-align: center;
+}
+.m-feedback-prompt__form {
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.m-feedback-prompt input, .m-feedback-prompt textarea {
+    font-size: 1em;
+    padding: 5px;
+    border-bottom: 3px solid #e5e5e5;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-sizing: border-box;
+}
+.m-feedback-prompt button, .m-feedback-prompt input[type="button"], .m-feedback-prompt input[type="reset"], .m-feedback-prompt input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+.p-button, .m-feedback-prompt button {
+    background-color: #4f7177;
+    color: white;
+    font-size: 0.9em;
+    line-height: 1;
+    padding: .7em .7em .6em;
+    border: none;
+    text-transform: uppercase;
+}
+#contact-form label {
+    color: #4c4e4d;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 15px;
+    text-align: left;
+}
+#contact-form label:first-of-type {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0;
+}
+.m-feedback-prompt__button--active.no::before {
+    bottom: -15px;
+}
+.m-feedback-prompt__button--active::before {
+    content: '';
+    position: absolute;
+    bottom: -22px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-bottom-color: #e9e7e8;
+    border-width: 0 10px 10px 10px;
+}
+.m-feedback-prompt__text {
+    display: block;
+    font-style: italic;
+    line-height: 1;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.m-feedback-prompt__form .p-input__text, .m-feedback-prompt__form .p-input__textarea {
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 3px;
+    margin: 0;
+    resize: none;
+    width: 100%;
+}
+.p-input__textarea {
+    padding: 15px 25px;
+    line-height: 1.2;
+    border: 1px solid #fff;
+    background: #fff;
+    outline: none;
+    padding: 3px;
+    border-bottom: 3px solid #e5e5e5;
+    border-radius: 5px;
+    height: 100px;
+}
+.p-input__text {
+    padding: 8px 10px 4px;
+    line-height: 1.2;
+    background: #fff;
+    outline: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+.m-feedback-prompt__form .p-input__text:focus, .m-feedback-prompt__form .p-input__textarea:focus {
+    border-color: #97ace6;
+    box-shadow: 2px 2px 2px #e1dfe0 inset;
+    transition: all 0.3s ease 0s;
+}
+.p-button, .m-feedback-prompt button {
+    background-color: #4f7177;
+    color: white;
+    font-size: 0.9em;
+    line-height: 1;
+    padding: .7em .7em .6em;
+    border: none;
+    text-transform: uppercase;
+}
+a.m-feedback-prompt__button.no {
+    margin-bottom: 0.7em;
+}
+.has-icon.facebook, .has-icon.linkedin {
+    background-color: #325a97;
+    color: #fff;
+}
+.has-icon.googleplus {
+    background-color: #FF0000;
+    color: #fff;
+}
+a.p-button-social {
+    display: inline-block;
+    background-color: #cccdcd;
+    padding: .7em 1em .6em .8em;
+    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    margin: 0 .2em;
+    color: inherit;
+    font-size: .65em;
+    letter-spacing: .05em;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+.m-feedback-prompt .p-button-social {
+    font-size: .7em;
+    margin: 0 5px;
+}
+.has-icon.twitter {
+    background-color: #00aced;
+    color: #fff;
+}
+.m-feedback-prompt .p-button-social {
+    font-size: .7em;
+    margin: 0 5px;
+}
+a.p-button-social span:last-child:before {
+    display: none;
+}
+a.p-button-social {
+    display: inline-block;
+    background-color: #cccdcd;
+    padding: .7em 1em .6em .8em;
+    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    margin: 0 .2em;
+    color: inherit;
+    font-size: .65em;
+    letter-spacing: .05em;
+    text-decoration: none;
+    position: relative;
+}
+a.p-button-social span:before {
+    position: relative;
+    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Brands";
+    content: " ";
+    margin-right: .8em;
+    top: 0.2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+}
+.m-feedback-prompt .p-button-social {
+    font-size: .9em;
+    margin: 5px;
+}
+a.m-feedback-prompt__button.m-feedback-prompt__social.yes, a.m-feedback-prompt__button.m-feedback-prompt_form.no, a.m-feedback-prompt__button.m-feedback-prompt__social_thumbsdown.no {
+    font-size: 2.4em;
+    margin: 0.2em;
+    color: #5C7ED7;
+    text-decoration: none;
+}
+a.m-feedback-prompt__button.m-feedback-prompt_form.no {
+    color: #FF3234;
+}
+a.p-button-social:hover {
+    opacity: 0.7;
+    color: #fff;
+}
+#contact-form #feedback-message {
+    color: #FF0000;
+    font-weight: bold;
+}
+#submit-contact-form {
+    background: #9a9296 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    box-shadow: none;
+    margin: 10px auto 0;
+}
+#submit-contact-form:hover {
+    background: #5c7ed7 none repeat scroll 0 0;
+}
+
+@media only screen and (max-width: 479px) {
+    .m-feedback-prompt h4 {
+        font-size: 1.2em;
+    }
+}

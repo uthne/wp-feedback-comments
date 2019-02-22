@@ -1,0 +1,814 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Feedback Comments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-21 18:26+0000\n"
+"PO-Revision-Date: 2019-02-21 18:27+0000\n"
+"Last-Translator: uthne <dev-email@flywheel.local>\n"
+"Language-Team: Norwegian (Bokmål)\n"
+"Language: nb_NO\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#: wp-feedback-comments.php:94
+#, php-format
+msgid ""
+"No comment feed available, please visit our <a href=\"%s\">homepage</a>!"
+msgstr ""
+"Det finnes ingen kommentarstrøm. Gå til vår <a href=\"%s\">hjemmeside</a>!"
+
+#: wp-feedback-comments.php:122
+msgid "Yes, I found what I was looking for"
+msgstr "Ja, jeg fant det jeg lette etter"
+
+#: wp-feedback-comments.php:184
+msgid "Was this article helpful?"
+msgstr "Fant du det du lette etter?"
+
+#: wp-feedback-comments.php:185
+msgid "Help us improve. Give us your feedback."
+msgstr "Hjelp oss å bli bedre. Send en tilbakemelding."
+
+#: wp-feedback-comments.php:187
+msgid "Your full name (optional)"
+msgstr "Ditt  fulle navn (valgfritt)"
+
+#: wp-feedback-comments.php:188
+msgid "Your email address (optional)"
+msgstr "Din e-postadresse (valgfritt)"
+
+#: wp-feedback-comments.php:189
+msgid "Awesome, share it!"
+msgstr "Flott, vil du dele?"
+
+#: wp-feedback-comments.php:190
+msgid "Thanks!"
+msgstr "Takk!"
+
+#: wp-feedback-comments.php:191
+msgid "Thanks for helping us improve."
+msgstr "Takk for at du hjelper oss å bli bedre."
+
+#: wp-feedback-comments.php:192
+msgid "Write a comment or just click Send."
+msgstr "Skriv en kommentar eller bare klikk send."
+
+#: wp-feedback-comments.php:203 wp-feedback-comments.php:712
+msgid "Facebook"
+msgstr "Facebook"
+
+#: wp-feedback-comments.php:206 wp-feedback-comments.php:714
+msgid "Twitter"
+msgstr "Twitter"
+
+#: wp-feedback-comments.php:209 wp-feedback-comments.php:716
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: wp-feedback-comments.php:260
+msgid "Submit"
+msgstr "Send"
+
+#: wp-feedback-comments.php:414
+msgid "Feedback Comments settings"
+msgstr "Innstilliger for tilbakemelding"
+
+#: wp-feedback-comments.php:414
+msgid "Feedback Options"
+msgstr "Feedback valg"
+
+#: wp-feedback-comments.php:428
+msgid "Feedback Comments Settings"
+msgstr "Innstilliger for tilbakemelding"
+
+#: wp-feedback-comments.php:429
+msgid "See help tab in top right corner."
+msgstr "Se hjelpefane øverst til høyre."
+
+#: wp-feedback-comments.php:435 wp-feedback-comments.php:1017
+#: wp-feedback-comments.php:1063
+msgid "Donate"
+msgstr "Donér"
+
+#: wp-feedback-comments.php:436 wp-feedback-comments.php:1019
+msgid ""
+"This software is free to use, but you can donate to support my work with a "
+"brew of strong hot coffee."
+msgstr ""
+"Denne programvaren kan brukes gratis, men du kan donere for å støtte "
+"utviklingsarbeidet med sterk og varm kaffe som holder meg våken gjennom "
+"nattarbeidet."
+
+#: wp-feedback-comments.php:436 wp-feedback-comments.php:1020
+msgid ""
+"Donate any amount you feel appropriate with PayPal by following the link "
+"below."
+msgstr ""
+"Gi den summen du selv synes er passe via PayPal ved å følge lenken nedenfor."
+
+#: wp-feedback-comments.php:437 wp-feedback-comments.php:1021
+msgid "Donate with PayPal"
+msgstr "Gi med PayPal"
+
+#: wp-feedback-comments.php:437
+msgid "or hide this box"
+msgstr "eller skjul denne boksen"
+
+#: wp-feedback-comments.php:442
+msgid "Instruction to use Plugin"
+msgstr "Bruk av innstikksmodul"
+
+#: wp-feedback-comments.php:443
+msgid "See also help tab in top right corner."
+msgstr "Se også hjelpefane øverst til høyre på siden."
+
+#: wp-feedback-comments.php:444
+msgid "Using Shortcode"
+msgstr "Bruk av 'shortcode'"
+
+#: wp-feedback-comments.php:445
+msgid "You can place the shortcode"
+msgstr "Du kan plassere 'shortcoden'"
+
+#: wp-feedback-comments.php:447
+msgid "wherever you want to display the Feedback Comments."
+msgstr "der du vil ha en ekstra tilbakemelding"
+
+#: wp-feedback-comments.php:448
+msgid "Using custom hook"
+msgstr "Bruk av 'custom hook'"
+
+#: wp-feedback-comments.php:449
+msgid "You can place the code"
+msgstr "Du kan plassere koden"
+
+#: wp-feedback-comments.php:451
+msgid "in your template to place Feedback Comments."
+msgstr "i 'templaten' der du vil plassere tilbakemelding."
+
+#: wp-feedback-comments.php:454
+msgid "Hide donation box"
+msgstr "Skjul donasjonsboks"
+
+#: wp-feedback-comments.php:478
+msgid "Clear"
+msgstr "Nullstill"
+
+#: wp-feedback-comments.php:481
+msgid "Select Position"
+msgstr "Velg plassering"
+
+#: wp-feedback-comments.php:484
+msgid "Before Content"
+msgstr "Før innhold"
+
+#: wp-feedback-comments.php:486
+msgid "After Content"
+msgstr "Etter innhold"
+
+#: wp-feedback-comments.php:488
+msgid "At custom hoook"
+msgstr "Ved 'custom hook'"
+
+#: wp-feedback-comments.php:489
+msgid ""
+"To use Custom Hook, add the code &lt;php do_action('fc_feedback_hook'); ?&gt;"
+" to your template."
+msgstr ""
+"For å bruke 'custom hook' må du legge inn koden  &lt;?php "
+"do_action('fc_feedback_hook'); ?&gt;  i themet."
+
+#: wp-feedback-comments.php:493
+msgid "Include on types"
+msgstr "Inkluder på typer"
+
+#: wp-feedback-comments.php:497
+msgid "Also show on"
+msgstr "Vis også på"
+
+#: wp-feedback-comments.php:500
+msgid "Home Page"
+msgstr "Forside"
+
+#: wp-feedback-comments.php:502
+msgid "Archives"
+msgstr "Arkiv"
+
+#: wp-feedback-comments.php:503
+msgid "Will be included on selected types when shown as this"
+msgstr "Vil bli inkludert på valgte typer når de vises som dette"
+
+#: wp-feedback-comments.php:507
+msgid "Exclude on ID's"
+msgstr "Ekskluder på IDer"
+
+#: wp-feedback-comments.php:510
+msgid "Comma seperated post id's Eg:"
+msgstr "Kommaseparerte IDer, som f.eks:"
+
+#: wp-feedback-comments.php:514
+msgid "Stop comments feed"
+msgstr "Stopp kommentarstrøm"
+
+#: wp-feedback-comments.php:517
+msgid "Check to stop responses showing in RSS feed"
+msgstr "Kryss av for å stoppe RSS strøm av tilbakemeldinger"
+
+#: wp-feedback-comments.php:522
+msgid "Anonymize IP-number"
+msgstr "Anonymiser IP-nummer"
+
+#: wp-feedback-comments.php:525
+msgid "To comply with GDPR, check this to anonymize last number in IP"
+msgstr ""
+"For å følge GDPR kan du krysse av her og anonymisere de tre siste tallene i "
+"IP nummeret"
+
+#: wp-feedback-comments.php:529
+msgid "Hide author fields"
+msgstr "Skjul avsenderfelt"
+
+#: wp-feedback-comments.php:532
+msgid ""
+"Check if you want to hide Name and E-mail fields, and avoid GDPR directive"
+msgstr ""
+"Kryss av hvis du vil skjule navn- og e-post felt. og omgå GDPR-direktivet"
+
+#: wp-feedback-comments.php:536
+msgid "Save positive response"
+msgstr "Lagre positiv respons"
+
+#: wp-feedback-comments.php:539
+msgid "Check to save feedback on positive response"
+msgstr "Kryss av for å lagre positiv respons i skjema"
+
+#: wp-feedback-comments.php:543
+msgid "Show dialouge"
+msgstr "Vis dialog"
+
+#: wp-feedback-comments.php:546
+msgid "Uncheck if you want to hide the message dialogue on negative feedback"
+msgstr ""
+"Ikke kryss av her hvis du vil skjule skjema for melding på negativ respons"
+
+#: wp-feedback-comments.php:550
+msgid "Load FontAwesome"
+msgstr "Last inn Font Awesome"
+
+#: wp-feedback-comments.php:553
+msgid "Uncheck if FontAwesome is loaded with the theme or other plugins"
+msgstr ""
+"Ikke velg hvis FontAwesome lastes inn av Temaet eller andre innstikksmoduler"
+
+#: wp-feedback-comments.php:558
+msgid "Use default style"
+msgstr "Bruk standard stil"
+
+#: wp-feedback-comments.php:561
+msgid "Uncheck if want to use your own CSS styling"
+msgstr "Fjern avkryssing hvis du vil bruke dine egne CSS stiler"
+
+#: wp-feedback-comments.php:566
+msgid "Custom style URL"
+msgstr "URL til tilpasset stil"
+
+#: wp-feedback-comments.php:569
+msgid "URL of custom CSS styling file"
+msgstr "Nettadresse til tilpasset CSS-fil"
+
+#: wp-feedback-comments.php:574
+msgid "YES text"
+msgstr "JA-tekst"
+
+#: wp-feedback-comments.php:577
+msgid "Will replace the thumbs up symbol, leave blank to show symbol"
+msgstr "Erstatter tommel-opp symbolet, ikke fyll inn hvis du vil ha symbolet"
+
+#: wp-feedback-comments.php:581
+msgid "NO text"
+msgstr "NEI-tekst"
+
+#: wp-feedback-comments.php:584
+msgid "Will replace the thumbs down symbol, leave blank to show symbol"
+msgstr "Erstatter tommel-ned symbolet, ikke fyll inn hvis du vil ha symbolet"
+
+#: wp-feedback-comments.php:589
+msgid "Font Size"
+msgstr "Skriftstørrelse"
+
+#: wp-feedback-comments.php:592
+msgid "Thumbs Up and Down Font Size"
+msgstr "Skriftstørrelse på JA- eller NEI-tekst (eller tommel-symbol)"
+
+#: wp-feedback-comments.php:596
+msgid "Thumbs Up color"
+msgstr "Tommel opp farge"
+
+#: wp-feedback-comments.php:602
+msgid "Thumbs Down Color"
+msgstr "Tommel ned farge"
+
+#: wp-feedback-comments.php:608
+msgid "Title size"
+msgstr "Tittelstørrelse"
+
+#: wp-feedback-comments.php:621
+msgid "Size of the question text."
+msgstr "Størrelsen på spørsmålstekst."
+
+#: wp-feedback-comments.php:625
+msgid "Title Phrase"
+msgstr "Tittel-setning"
+
+#: wp-feedback-comments.php:628
+msgid "Keep this section blank, if you want \"Was this article helpful?\""
+msgstr "La stå tom hvis du vil bruke \"Fant du det du lette etter?\""
+
+#: wp-feedback-comments.php:632
+msgid "Feedback Phrase"
+msgstr "Tilbakemelding-setning"
+
+#: wp-feedback-comments.php:635
+msgid ""
+"Keep this section blank, if you want \"Help us improve. Give us your "
+"feedback.\""
+msgstr ""
+"La stå tom hvis du vil bruke \"Hjelp oss å bli bedre. Send en tilbakemelding."
+"\""
+
+#: wp-feedback-comments.php:639
+msgid "Feedback name text"
+msgstr "Tilbakemelder-navn tekst"
+
+#: wp-feedback-comments.php:642
+msgid "Keep this section blank, if you want \"Your full name (optional)\""
+msgstr "La stå tom hvis du vil bruke \"Ditt fulle navn (valgfritt)\""
+
+#: wp-feedback-comments.php:646
+msgid "Feedback email text"
+msgstr "Tilbakemelder e-post tekst"
+
+#: wp-feedback-comments.php:649
+msgid "Keep this section blank, if you want \"Your email address (optional)\""
+msgstr "La stå tom hvis du vil bruke \"Din e-postadresse (valgfritt)\""
+
+#: wp-feedback-comments.php:653
+msgid "Message placeholder"
+msgstr "Plassholder for melding"
+
+#: wp-feedback-comments.php:656
+msgid ""
+"Keep this section blank, if you want \"Write a comment or just click Send. \""
+msgstr ""
+"La stå tom hvis du vil bruke \"Skriv en kommentar eller bare klikk send\""
+
+#: wp-feedback-comments.php:660
+msgid "Share phrase"
+msgstr "Delings-setning"
+
+#: wp-feedback-comments.php:663
+msgid "Keep this section blank, if you want \"Awesome, share it\""
+msgstr "La stå tom hvis du vil bruke \"Flott, vil du dele?\""
+
+#: wp-feedback-comments.php:667
+msgid "Thanks title"
+msgstr "Takke-tittel"
+
+#: wp-feedback-comments.php:670
+msgid "Keep this section blank, if you want \"Thanks!\""
+msgstr "La stå tom hvis du vil bruke \"Takk!\""
+
+#: wp-feedback-comments.php:674
+msgid "Thanks text"
+msgstr "Takketekst"
+
+#: wp-feedback-comments.php:677
+msgid "Keep this section blank, if you want \"Thanks for helping us improve.\""
+msgstr ""
+"La stå tom hvis du vil bruke \"Takk for at du hjelper oss å bli bedre.\""
+
+#: wp-feedback-comments.php:681
+msgid "Positive response text"
+msgstr "Positiv svartekst"
+
+#: wp-feedback-comments.php:684
+msgid ""
+"Keep this section blank, if you want \"Yes I found what I was looking for.\""
+msgstr "La stå tom hvis du vil bruke \"Ja, jeg fant det jeg lette etter\""
+
+#: wp-feedback-comments.php:688
+msgid "Negative default text"
+msgstr "Negativ standard tekst"
+
+#: wp-feedback-comments.php:691
+msgid "Keep this section blank, if you want \"No, i did not find it.\""
+msgstr "La stå tom hvis du vil bruke \"Nei, jeg fant det ikke\""
+
+#: wp-feedback-comments.php:695
+msgid "Reactivate to default"
+msgstr "Reaktiver fabrikkinnstillinger"
+
+#: wp-feedback-comments.php:698
+msgid ""
+"Check to force default options when plugin is deactivated and reactivated."
+msgstr ""
+"Kryss av for å laste inn fabrikkinnstillinger når plugin-modulen deaktiveres "
+"og aktiveres igjen."
+
+#: wp-feedback-comments.php:702
+msgid "Settings submenu"
+msgstr "Undermeny i Innstillinger"
+
+#: wp-feedback-comments.php:705
+msgid "Check move submenu from Comments to Settings menu"
+msgstr "Kryss av for å flytte undermenyen fra Kommentarer til Innstillinger"
+
+#: wp-feedback-comments.php:709
+msgid "Share on"
+msgstr "Del på"
+
+#: wp-feedback-comments.php:717
+msgid "Select at least one, if not it will look pretty stupid!\""
+msgstr "Velg minst én, ellers ser det merkelig ut!"
+
+#: wp-feedback-comments.php:721 wp-feedback-comments.php:968
+msgid "Export"
+msgstr "Eksporter"
+
+#: wp-feedback-comments.php:724
+msgid "Message"
+msgstr "Melding"
+
+#: wp-feedback-comments.php:726
+msgid "Article name"
+msgstr "Artikkelnavn"
+
+#: wp-feedback-comments.php:728
+msgid "Article URL"
+msgstr "Link til artikkel"
+
+#: wp-feedback-comments.php:730
+msgid "Authors name"
+msgstr "Forfatternavn"
+
+#: wp-feedback-comments.php:732
+msgid "Authors email"
+msgstr "Forfatters e-post"
+
+#: wp-feedback-comments.php:733
+msgid "Select the fields you wish to include in the CSV-file"
+msgstr "Velg feltene du vil inkludere i CSV-filen"
+
+#: wp-feedback-comments.php:737
+msgid "Export format"
+msgstr "Eksportformat"
+
+#: wp-feedback-comments.php:744
+msgid "Format of exported document."
+msgstr "Formatet dokumentet eksporteres til."
+
+#: wp-feedback-comments.php:749
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+#: wp-feedback-comments.php:775
+msgid "You entered an invalid email address."
+msgstr "Du har oppgitt en ugyldig e-postadresse"
+
+#: wp-feedback-comments.php:784
+msgid "No, i did not find it."
+msgstr "Nei, jeg fant det ikke."
+
+#: wp-feedback-comments.php:802
+msgid "There was a problem. Please try again."
+msgstr "Det oppstod et problem. Vennligst prøv igjen."
+
+#: wp-feedback-comments.php:828 wp-feedback-comments.php:829
+msgid "Export selected comment"
+msgstr "Eksporter valgte kommentar"
+
+#: wp-feedback-comments.php:830 wp-feedback-comments.php:831
+msgid "Export selected post"
+msgstr "Eksporter valgte artikkel"
+
+#: wp-feedback-comments.php:832 wp-feedback-comments.php:833
+msgid "Export all"
+msgstr "Eksporter alle"
+
+#: wp-feedback-comments.php:912
+#, php-format
+msgid "%s comment exported."
+msgid_plural "%s comments exported."
+msgstr[0] "%s kommentar eksportert."
+msgstr[1] "%s kommentarer eksportert."
+
+#: wp-feedback-comments.php:959
+msgid "Export comments"
+msgstr "Eksportere kommentarer"
+
+#: wp-feedback-comments.php:960
+msgid ""
+"From the <em>Bulk Action</em> menu you can choose options for exporting "
+"comments."
+msgstr "Fra <em>Massehandlinger</em> menyen kan du velge ulike eksportvalg."
+
+#: wp-feedback-comments.php:961
+msgid ""
+"<strong> - Export selected comment</strong> will export only the selected "
+"comments."
+msgstr ""
+"<strong> - Eksporter valgte kommentar</strong> vil eksportere kun valgte "
+"kommentarer."
+
+#: wp-feedback-comments.php:962
+msgid ""
+"<strong> - Export selected post</strong> will export all comments from "
+"selected post."
+msgstr ""
+"<strong> - Eksporter valgte artikkel</strong> vil eksportere alle "
+"kommentarer til valgte artikkel."
+
+#: wp-feedback-comments.php:963
+msgid "<strong> - Export all</strong> will export all comments."
+msgstr "<strong> - Eksporter alle</strong> vil eksportere alle kommentarer."
+
+#: wp-feedback-comments.php:964
+msgid ""
+"Go to <em>Feedback Comments Settings</em> to choose what columns and file "
+"format to export."
+msgstr ""
+"Gå til <em>Feedback valg</em> for å velge kolonner og filformat for eksport."
+
+#: wp-feedback-comments.php:981 wp-feedback-comments.php:1027
+msgid "General"
+msgstr "Generelt"
+
+#: wp-feedback-comments.php:982
+msgid ""
+"This plugin will replace the comments section on your Wordpress site with a "
+"question like \"Did you find what you are looking for?\". All the feedback "
+"will end up under Comments in your admin-panel, and you can handle them just "
+"like normal comments."
+msgstr ""
+"Denne plugin-modulen vil erstatte kommentarfeltene på hele Wordpress "
+"nettstedet med et spørsmål som \"Fant du det du lette etter?\". Alle "
+"tilbakemeldinger havner under Kommentarer under administrasjon, og du kan "
+"håndtere disse akkurat som vanlige kommentarer."
+
+#: wp-feedback-comments.php:983
+msgid ""
+"The user can send a positive feedback, with the option to share the post – "
+"or a negative feedback with a written comment."
+msgstr ""
+"Brukeren kan sende positiv tilbakemelding, med valg om å dele innlegget - "
+"eller en negativ tilbakemelding med en kommentar."
+
+#: wp-feedback-comments.php:984
+msgid ""
+"In the Comments view you'll get the added options to export the comments. "
+"You can export a selected feedbacks, all feedback on a single post or all "
+"feedback to a spreadsheet."
+msgstr ""
+"I Kommentar-visningen får du tilleggsfunksjoner for å eksportere kommentarer."
+" Du kan eksportere valgte tilbakemeldinger, alle tilbakemeldinger om ett "
+"innlegg, eller alle tilbakemeldinger."
+
+#: wp-feedback-comments.php:985
+msgid "For more help on comments, se help sheet in the Comments view."
+msgstr "For mer hjelp om kommentarer, se hjelpefanen i Kommentarvisningen."
+
+#: wp-feedback-comments.php:987
+msgid "Setting up"
+msgstr "Oppsett"
+
+#: wp-feedback-comments.php:988
+msgid ""
+"First you must select where on the page/post you would like to implement the "
+"question - before or after the main content, or at a custom hook. Then you "
+"select the post type it should be included on, Page, Post, etc."
+msgstr ""
+"Du må først velge hvor på siden/innlegget du vil implementere spørsmålet - "
+"før eller etter innholdet, eller ved en <em>custom hook</em>. Så velger du "
+"hvilke post-typer det skal inkluderes, Side, Innlegg, etc."
+
+#: wp-feedback-comments.php:989
+msgid ""
+"You then select if the question should be included if the selected types are "
+"shown as homepage or archive."
+msgstr ""
+"Du kan så velge om spørsmålet vises når de valgte typene vises som forside "
+"eller arkiv."
+
+#: wp-feedback-comments.php:990
+msgid ""
+"To use the custom hook you'll have to get your favorite developer add the "
+"hook to your template at the location you want to place the question. Add "
+"this code to your template:"
+msgstr ""
+"For å bruke «custom hook» må du få din favoritt-utvikler til å legge inn "
+"koden i <em>templaten</em> på det stedet du vil at spørsmålet skal vises. "
+"Legg denne koden inn i templaten:"
+
+#: wp-feedback-comments.php:991
+msgid ""
+"<span style=\"color:red\"><&quest;php</span> <span style=\"color:blue\">"
+"do_action</span><span style=\"color:green\">('fc_feedback_hook')</span>; "
+"<span style=\"color:red\">&quest;></span>."
+msgstr ""
+"<span style=\"color:red\"><&quest;php</span> <span style=\"color:blue\">"
+"do_action</span><span style=\"color:green\">('fc_feedback_hook')</span>; "
+"<span style=\"color:red\">&quest;></span>."
+
+#: wp-feedback-comments.php:992
+msgid ""
+"If you don't have a developer laying around try using the shortcode (see "
+"Shoortcode tab)."
+msgstr ""
+"Hvis du ikke har en utvikler for hånden kan du prøve shortcoden (se fanen "
+"for Shortcode)."
+
+#: wp-feedback-comments.php:994 wp-feedback-comments.php:1039
+msgid "Styling"
+msgstr "Utseende"
+
+#: wp-feedback-comments.php:995
+msgid ""
+"There are several options for styling the look of your question and reply. "
+"You can obviously write your own text on all the different elements "
+"including text to replace the thumbs up/down symbols. A neat trick is the "
+"ability to use any Font Awesome symbol by writing the name of the symbol "
+"like ‘fas fa-utensils’."
+msgstr ""
+"Det er flere valg for utforming av spørsmål og svar-alternativer. Du kan "
+"skrive din egen tekst for å erstatte alt inkludert tommel-opp/-ned symbolene."
+" Et fint knep er å bruke hvilket som helst Font Awesome symbol ved å skrive "
+"navnet på symbolet, som ‘fas fa-utensils’."
+
+#: wp-feedback-comments.php:996
+msgid ""
+"You can abbreviate regular style like ‘far fa-utensils’ to just ‘fa-"
+"utensils’, but other styles like solid, light and brands you must write with "
+"the leading ‘<strong>fas&nbsp;</strong>fa-utensils’, ‘<strong>fal&nbsp;"
+"</strong>fa-utensils’ and ‘<strong>fab&nbsp;</strong>fa-twitter’."
+msgstr ""
+"Du kan forkorte normal (far ) stil som ‘far fa-utensils’ til bare ‘fa-"
+"utensils’, mens andre stiler som solid, light og brands må du skrive helt ut "
+"som ‘<strong>fas&nbsp;</strong>fa-utensils’, ‘<strong>fal&nbsp;</strong>fa-"
+"utensils’ og ‘<strong>fab&nbsp;</strong>fa-twitter’."
+
+#: wp-feedback-comments.php:997
+msgid ""
+"You can find more <a href=\"https://fontawesome.com/icons?d=gallery\" "
+"target=\"_blank\">symbols here</a>."
+msgstr ""
+"Du kan finne flere <a href=\"https://fontawesome.com/icons?d=gallery\" "
+"target=\"_blank\">symboler her</a>."
+
+#: wp-feedback-comments.php:998
+msgid ""
+"You can style using your own CCS stylesheet by turning off the internal CSS "
+"styles and linking to the URL of your own css file or including the styles "
+"in your theme css file.\n"
+"A good starting point would be to copy the styles from <em>front-feedback-"
+"styles.css.</em>"
+msgstr ""
+"Du kan bruke ditt eget CSS stilskjema ved å slå av de interne CSS stilene og "
+"linke til din egen css-fil eller inkludere stilene i temaets css-fil.\n"
+"Et godt utgangspunkt vil være å kopiere stilene fra <em>front-feedback-"
+"styles.css.</em>"
+
+#: wp-feedback-comments.php:1001 wp-feedback-comments.php:1045
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: wp-feedback-comments.php:1002
+msgid ""
+"You can implement the question almost anywhere with the shortcode. The "
+"shortcode also give you the option to customize the question for individual "
+"pages."
+msgstr ""
+"Du kan implementere spørsmålet nesten hvor som helst med shortcode. Denne "
+"gir deg også mulighet for å tilpasse spørsmålet individuelt på hver side."
+
+#: wp-feedback-comments.php:1003
+msgid "Add the following shortcode to content, sidebar, footer, etc."
+msgstr "Legg følgende shortcode i innhold, sidestolpe, footer, etc."
+
+#: wp-feedback-comments.php:1004
+msgid ""
+"<pre><span style=\"color:green\">[feedback_comment</span> <span "
+"style=\"color:blue\">question=</span><span style=\"color:red\">\"Your "
+"question\"</span> <span style=\"color:blue\">yes=</span><span style=\"color:"
+"red\">\"Yes\"</span> <span style=\"color:blue\">no=</span><span "
+"style=\"color:red\">\"No\"</span><span style=\"color:green\">]</span></pre>"
+msgstr ""
+"<pre><span style=\"color:green\">[feedback_comment</span> <span "
+"style=\"color:blue\">question=</span><span style=\"color:red\">\"Ditt "
+"spørsmål\"</span> <span style=\"color:blue\">yes=</span><span style=\"color:"
+"red\">\"Ja\"</span> <span style=\"color:blue\">no=</span><span style=\"color:"
+"red\">\"Nei\"</span><span style=\"color:green\">]</span></pre>"
+
+#: wp-feedback-comments.php:1005
+msgid ""
+"You can omit any of the variables and the default you set on this page will "
+"be used. In other words you could set the variable <em>question</em> and "
+"have the default thumbs up/down as alternatives."
+msgstr ""
+"Du kan utelate hvilken som helst av variablene og standarden du har satt på "
+"denne siden vises i stedet. Du kan altså f.eks oppgi variablen <em>"
+"question</em> og la standart tommel opp/ned vises som svaralternetiv."
+
+#: wp-feedback-comments.php:1007 wp-feedback-comments.php:1051
+msgid "About GDPR"
+msgstr "Om GDPR"
+
+#: wp-feedback-comments.php:1008
+msgid ""
+"If you collect IP-numbers, names, e-mail adresses or any other personal data "
+"that might identify individuals you must comply with the GDPR regulation to "
+"operate within the EU. To circumvent this requirement you can anonymize IP-"
+"numbers and hide name and e-mail fields in the comment form."
+msgstr ""
+"Hvis du samler inn IP-nummer, navn, e-postadresser eller andre personlige "
+"data, som kan identifisere en person må du følge kravene i GDPR-direktivet "
+"for å kunne operere innen EU/EØS området. For å omgå disse kravene kan du "
+"anonymisere IP-nummer og skjule navn- og e-postfelt i kommentarfeltet."
+
+#: wp-feedback-comments.php:1009
+msgid ""
+"The anonymization of the IP-number effectively set the three last digit "
+"(last number) of IP to 255. The IP number will thus be obfuscated but you "
+"still have some idea if several feedbacks where made by the same person."
+msgstr ""
+"Anonymiseringen av IP-nummer skjer ved å sette di tre siste sifferne (siste "
+"tall) i IP til 255. IP-nummeret blir da ikke mulig å identifisere, men du "
+"kan anta når en og samme person har lagt inn flere tilbakemeldinger."
+
+#: wp-feedback-comments.php:1011 wp-feedback-comments.php:1057
+msgid "Credits"
+msgstr "Kredittering"
+
+#: wp-feedback-comments.php:1012
+msgid ""
+"This plugin was built on \"Article Feedback\" by Themeidol. Even though the "
+"code has been copletely re-written, the basic idea and apparence was derived "
+"from the work done by Themeidol."
+msgstr ""
+"Denne utvidelsesmodulen ble bygget på \"Article Feedback\" av Themeidol. "
+"Selv om kildekoden er blitt skrevet fullstendig om, er den grunnleggende "
+"idéen og utseende utviklet fra arbeidet Themeidol har lagt ned."
+
+#: wp-feedback-comments.php:1013
+msgid ""
+"This plugin was developed by Kjetil Uthne Hansen and is provided under a "
+"free GPL license and \"as is\" without warranty of any kind, either "
+"expressed or implied."
+msgstr ""
+"Denne innstikksmodulen er utviklet av Kjetil Uthne Hansen og gjort "
+"tilgjengelig under en gratis GPL lisens \"som den er\" uten noen som helst "
+"garanti, hverken uttrykt eller implisitt."
+
+#: wp-feedback-comments.php:1014
+msgid ""
+"Font Awesome pictogram font is provided by Fonicons Inc. under a free "
+"CC/GPL/MIT license."
+msgstr ""
+"Font Awesome piktogram skriften er gjort tilgjengelig av Fonticons Inc. "
+"under gratis CC/GPL/MIT lisens."
+
+#: wp-feedback-comments.php:1015
+msgid ""
+"Read the <em>README.txt</em> file for more developer information and "
+"disclaimer."
+msgstr ""
+"Les <em>README.txt</em> filen for mer utvikler-informasjon og "
+"ansvarsfraskrivelse."
+
+#: wp-feedback-comments.php:1033
+msgid "Settings"
+msgstr "Innstillinger"
+
+#. Name of the plugin
+msgid "Feedback Comments"
+msgstr "Feedback Comments"
+
+#. Description of the plugin
+msgid ""
+"Add \"Was this article helpful?\" at the end, start and/or at custom hook of "
+"any post type. The question replaces normal comments section."
+msgstr ""
+"Legger til \"Fant du det du lette etter?\" på slutten, starten og/eller ved "
+"custom hook i hvilken som helst post-type. Spørsmålet erstatter normalt "
+"kommentarfelt."
+
+#. URI of the plugin
+msgid "http://fjuz.no"
+msgstr "http://fjuz.no"
+
+#. Author of the plugin
+msgid "Kjetil Uthne Hansen"
+msgstr "Kjetil Uthne Hansen"

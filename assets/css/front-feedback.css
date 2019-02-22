@@ -1,0 +1,54 @@
+h4.m-feedback-prompt__header {
+    display: inline
+}
+.m-feedback-prompt__button {
+    cursor: pointer;
+    display: inline-block
+}
+.m-feedback-prompt__display {
+    display: none;
+    position: relative
+}
+.feedback-nodisplayall {
+    display: none
+}
+.feedback-displayall, .m-feedback-prompt__display.show {
+    display: inline-block
+}
+button, input[type=button], input[type=reset], input[type=submit] {
+    cursor: pointer;
+    -webkit-appearance: button
+}
+.m-feedback-prompt__text {
+    display: block
+}
+.m-feedback-prompt__form .p-input__text:focus, .m-feedback-prompt__form .p-input__textarea:focus {
+    transition: all .3s ease 0s
+}
+a.p-button-social {
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Brands"
+}
+.has-icon.twitter {
+    background-color: #00aced;
+    color: #fff
+}
+.m-feedback-prompt .p-button-social {
+    font-size: .7em;
+    margin: 0 5px
+}
+a.p-button-social span:last-child:before {
+    display: none
+}
+a.p-button-social span:before {
+    position: relative;
+    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Brands";
+    content: " ";
+    margin-right: .8em;
+    top: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision
+}
