@@ -13,10 +13,12 @@ h4.m-feedback-prompt__header {
     display: inline-block;
     margin: 0;
     position: relative;/*vertical-align: middle;*/
+	box-shadow: 0 0 0 0 !important;
 }
 .m-feedback-prompt__button i {
     width: 25px;
     height: 25px;
+	line-height: 0 !important;
 }
 .feedback-prompt__button.no {
     margin-left: 0;
@@ -253,10 +255,4 @@ a.p-button-social:hover {
 }
 #submit-contact-form:hover {
     background: #5c7ed7 none repeat scroll 0 0;
-}
-
-@media only screen and (max-width: 479px) {
-    .m-feedback-prompt h4 {
-        font-size: 1.2em;
-    }
 }
