@@ -12,13 +12,12 @@ h4.m-feedback-prompt__header {
     cursor: pointer;
     display: inline-block;
     margin: 0;
-    position: relative;/*vertical-align: middle;*/
+    position: relative;
 	box-shadow: 0 0 0 0 !important;
 }
 .m-feedback-prompt__button i {
     width: 25px;
     height: 25px;
-	line-height: 0 !important;
 }
 .feedback-prompt__button.no {
     margin-left: 0;
@@ -34,7 +33,7 @@ h4.m-feedback-prompt__header {
     box-sizing: border-box;
 }
 .m-feedback-prompt__display.no {
-    margin: 9px 0;
+    margin: 15px 0;
 }
 .thanks h2 {
     font-size: 1.5em;
@@ -94,19 +93,33 @@ h4.m-feedback-prompt__header {
     text-align: center;
     margin-top: 0;
 }
+a.m-feedback-prompt__button.m-feedback-prompt__social.yes,a.m-feedback-prompt__button.m-feedback-prompt_form.no, a.m-feedback-prompt__button.m-feedback-prompt__social_thumbsdown.no {
+    font-size: 1.8em;
+    margin: 0.2em;
+    color: #5C7ED7;
+    text-decoration: none;
+}
+a.m-feedback-prompt__button.m-feedback-prompt_form.no {
+    color: #FF3234;
+}
+a.m-feedback-prompt__button.m-feedback-prompt_form.no, 
+a.m-feedback-prompt__button.m-feedback-prompt__social_thumbsdown.no, 
+a.m-feedback-prompt__button.m-feedback-prompt__social.yes { 
+    display:inline;
+}
 .m-feedback-prompt__button--active.no::before {
-    bottom: -15px;
 }
 .m-feedback-prompt__button--active::before {
     content: '';
     position: absolute;
-    bottom: -22px;
+    bottom: -42px;
+    left:-15px;
     display: block;
     width: 0;
     height: 0;
     border: 0 solid transparent;
     border-bottom-color: #e9e7e8;
-    border-width: 0 10px 10px 10px;
+    border-width: 0 30px 30px 30px;
 }
 .m-feedback-prompt__text {
     display: block;
@@ -228,15 +241,6 @@ a.p-button-social span:before {
 .m-feedback-prompt .p-button-social {
     font-size: .9em;
     margin: 5px;
-}
-a.m-feedback-prompt__button.m-feedback-prompt__social.yes, a.m-feedback-prompt__button.m-feedback-prompt_form.no, a.m-feedback-prompt__button.m-feedback-prompt__social_thumbsdown.no {
-    font-size: 2.4em;
-    margin: 0.2em;
-    color: #5C7ED7;
-    text-decoration: none;
-}
-a.m-feedback-prompt__button.m-feedback-prompt_form.no {
-    color: #FF3234;
 }
 a.p-button-social:hover {
     opacity: 0.7;

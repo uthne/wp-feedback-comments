@@ -6,6 +6,16 @@ jQuery(function ($) {
         jQuery('#fontsize').html(jQuery(this).val() + "em");
         jQuery('#fader').val(jQuery(this).val());
     });
+    jQuery("#noalign").on("input",function () {
+    		//jQuery('#fontsize').css('font-size',jQuery(this).val() + "em");
+            jQuery('#noalignout').html(jQuery(this).val() + "%");
+            jQuery('#noalign').val(jQuery(this).val());
+    });
+    jQuery("#yesalign").on("input",function () {
+    		//jQuery('#fontsize').css('font-size',jQuery(this).val() + "em");
+            jQuery('#yesalignout').html(jQuery(this).val() + "%");
+            jQuery('#yesalign').val(jQuery(this).val());
+    });
     var FC_GET = [];
     window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (a, name, value) {
         FC_GET[name] = value;

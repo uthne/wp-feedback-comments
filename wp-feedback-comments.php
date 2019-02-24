@@ -3,7 +3,7 @@
 Plugin Name: Feedback Comments
 Plugin URI: http://fjuz.no
 Description: Add "Was this article helpful?" at the end, start and/or at custom hook of any post type. The question replaces normal comments section.
-Version: 1.3
+Version: 1.3.1
 Author: Kjetil Uthne Hansen
 Author URI: 
 Author Email: uthne@me.com
@@ -121,6 +121,8 @@ class FeedbackComments {
         $fontsize=$feedback_options['ss-font-size'];
         $Upcolor=($feedback_options['ss-thumbs-up']!="")?$feedback_options['ss-thumbs-up']:'#FF3234';
         $Downcolor=($feedback_options['ss-thumbs-down']!="")?$feedback_options['ss-thumbs-down']:'#5C7ED7';
+        $Upalign=($feedback_options['ss-font-yes-align']!="" && $feedback_options['ss-font-yes-align']!="0")?$feedback_options['ss-font-yes-align'].'%':'middle';
+        $Downalign=($feedback_options['ss-font-no-align']!="" && $feedback_options['ss-font-no-align']!="0")?$feedback_options['ss-font-no-align'].'%':'middle';
 
         if ($feedback_options['ss-load-font']=="yes") {
             wp_enqueue_style( 'font-awesome-styles', plugins_url( 'assets/css/font-awesome.min.css', __FILE__ ), array(), self::VERSION, 'all' );
@@ -145,7 +147,16 @@ class FeedbackComments {
             a.m-feedback-prompt__button.m-feedback-prompt_form.no, a.m-feedback-prompt__button.m-feedback-prompt__social_thumbsdown.no {
                 color: '.$Downcolor.';
                 font-size:'.$fontsize.'em;
-            }' 
+            }
+            a.m-feedback-prompt__button.m-feedback-prompt_form.no i, a.m-feedback-prompt__button.m-feedback-prompt__social_thumbsdown.no i {
+                display:inline-block;
+                vertical-align:'.$Downalign.';
+            }
+            a.m-feedback-prompt__button.m-feedback-prompt__social.yes i { 
+                display:inline-block;
+                vertical-align:'.$Upalign.';
+            }
+            ' 
         );
         }
     }
@@ -375,11 +386,13 @@ class FeedbackComments {
             'ss-show-schema'=> $preset ? 'yes' : '',
             'ss-style-on'=> $preset ? 'yes' : '',
             'ss-style-url'=> '',
-            'ss-font-size'=>'2.4',
+            'ss-font-size'=>'1.8',
             'ss-thumbs-up'=>'#5C7ED7',
             'ss-thumbs-down'=>'#FF3234',
             'ss-text-yes' => '',
             'ss-text-no' => '',
+            'ss-font-no-align'=> $preset ? 0 : '',
+            'ss-font-yes-align'=> $preset ? 0 : '',
             'ss-delete-opts' => ''
             );
     }
@@ -596,6 +609,20 @@ class FeedbackComments {
     <tr>
         <th><label for="ss-thumbs-down">'.__('Thumbs Down Color','wp-feedback-comments').'</label></th>
         <td><input type="text" name="feedback_options[ss-thumbs-down]" id="ssthumbsdown" data-default-color="#FF3234" value="'.$feedback_options['ss-thumbs-down'].'"></td>
+    </tr>
+    <tr>
+        <th><label for="ss-font-yes-align">'.__('Thumbs Up align','wp-feedback-comments').'</label></th>
+        <td>
+            <input type="range" min="-100" max="100"  id="yesalign" step="1" name="feedback_options[ss-font-yes-align]" value="'.$feedback_options['ss-font-yes-align'].'">
+            <small><strong>&nbsp;&nbsp;<span id="yesalignout">'.$feedback_options['ss-font-yes-align'].'%</span></strong>&nbsp;&nbsp;<em>'.__('Vertical alignment of positive button','wp-feedback-comments').' </em></small>
+        </td>
+    </tr>
+    <tr>
+        <th><label for="ss-font-no-align">'.__('Thumbs Down align','wp-feedback-comments').'</label></th>
+        <td>
+            <input type="range" min="-100" max="100"  id="noalign" step="1" name="feedback_options[ss-font-no-align]" value="'.$feedback_options['ss-font-no-align'].'">
+            <small><strong>&nbsp;&nbsp;<span id="noalignout">'.$feedback_options['ss-font-no-align'].'%</span></strong>&nbsp;&nbsp;<em>'.__('Vertical alignment of negative button','wp-feedback-comments').' </em></small>
+        </td>
     </tr>
     <tr>
         <th><label for="ss-title-level">'.__('Title size','wp-feedback-comments').'</label></th>

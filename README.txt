@@ -2,9 +2,9 @@
 Contributors: uthne
 Built on: Article feedback by themeidol
 Tags: icons, font-awesome, feedback, share, wp article feedback, WordPress Feedback Comments, Article, article, post, page, custom post type
-Version: 1.3
+Version: 1.3.1
 Requires at least: 3.0
-Tested up to: 5.0.3
+Tested up to: 5.1
 Stable tag: 1.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -130,6 +130,8 @@ An answer to that question.
 
 
 == Changelog ==
+= 1.3.1 =
+Added options to vertically align thumbs up/thumbs down buttons.
 = 1.3.0 =
 Tidying up code and some small bugfixes, and language updates.
 = 1.2.9 =
