@@ -501,7 +501,9 @@ class FeedbackComments {
      *@since 1.0
      */
     public function admin_form( $feedback_options ) {
-    
+        
+        if ($feedback_options['ss-font-no-align']=="") $feedback_options['ss-font-no-align'] = 0;
+        if ($feedback_options['ss-font-yes-align']=="") $feedback_options['ss-font-yes-align'] = 0;
         $post_types = get_post_types();
         $ss_off_selector = '<select style="min-width: 190px;" id="ss-show-off"
             name="feedback_options[ss-show-off][]" size="4"
