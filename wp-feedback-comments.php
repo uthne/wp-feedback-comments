@@ -148,11 +148,15 @@ class FeedbackComments {
                 color: '.$Downcolor.';
                 font-size:'.$fontsize.'em;
             }
-            a.m-feedback-prompt__button.m-feedback-prompt_form.no i, a.m-feedback-prompt__button.m-feedback-prompt__social_thumbsdown.no i {
+            a.m-feedback-prompt__button.m-feedback-prompt_form.no i, 
+            a.m-feedback-prompt__button.m-feedback-prompt__social_thumbsdown.no i,
+            a.m-feedback-prompt__button.m-feedback-prompt_form.no span, 
+            a.m-feedback-prompt__button.m-feedback-prompt__social_thumbsdown.no span {
                 display:inline-block;
                 vertical-align:'.$Downalign.';
             }
-            a.m-feedback-prompt__button.m-feedback-prompt__social.yes i { 
+            a.m-feedback-prompt__button.m-feedback-prompt__social.yes i,  
+            a.m-feedback-prompt__button.m-feedback-prompt__social.yes span { 
                 display:inline-block;
                 vertical-align:'.$Upalign.';
             }
@@ -220,12 +224,28 @@ class FeedbackComments {
         $yes_text = ( isset($feedack_options['ss-text-yes']) && $feedack_options['ss-text-yes'] !='') ? $feedack_options['ss-text-yes'] : 'fas fa-thumbs-up';
         if ($yes_var != '') $yes_text = $yes_var;
         if (strpos($yes_text, "fa-") === 0 ) $yes_text = "far " . $yes_text;
-        $yes_text = '<i class="'.$yes_text.'">&nbsp;&nbsp;</i>';
+        if (strpos($yes_text, "fas fa-") === 0 || 
+            strpos($yes_text, "far fa-") === 0 || 
+            strpos($yes_text, "fab fa-") === 0 || 
+            strpos($yes_text, "fab fa-") === 0  
+           ) {
+            $yes_text = '<i class="'.$yes_text.'">&nbsp;&nbsp;</i>';
+        } else {
+            $yes_text = '<span>'.$yes_text.'</span>';
+        }
 
         $no_text  = ( isset($feedack_options['ss-text-no']) && $feedack_options['ss-text-no'] !='') ? $feedack_options['ss-text-no'] : 'fas fa-thumbs-down';
         if ($no_var != '') $no_text = $no_var;
         if (strpos($no_text, "fa-") === 0 ) $no_text = "far " . $no_text;
-        $no_text = '<i class="fa '.$no_text.'">&nbsp;&nbsp;</i>';
+        if (strpos($no_text, "fas fa-") === 0 || 
+            strpos($no_text, "far fa-") === 0 || 
+            strpos($no_text, "fab fa-") === 0 || 
+            strpos($no_text, "fab fa-") === 0  
+           ) {
+            $no_text = '<i class="'.$no_text.'">&nbsp;&nbsp;</i>';
+        } else {
+            $no_text = '<span>'.$no_text.'</span>';
+        }
 
         if ( !isset($feedack_options['ss-show-fields']) || $feedack_options['ss-show-fields'] !='yes') {
             $author_fields ='<label>'.$feedback_name.'</label>
