@@ -112,7 +112,7 @@ a.m-feedback-prompt__button.m-feedback-prompt__social.yes {
 .m-feedback-prompt__button--active::before {
     content: '';
     position: absolute;
-    bottom: -42px;
+    bottom: -32px;
     left:-15px;
     display: block;
     width: 0;
